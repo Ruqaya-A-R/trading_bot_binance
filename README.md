@@ -133,6 +133,10 @@ Pass `--json` to print the raw API response instead.
 
 ## Logging
 
+> **Note:** The Binance Futures Testnet is inaccessible from India — restricted at the IP, phone,
+> and account level regardless of VPN usage. The code is fully built and functional but I was unable
+> to generate live logs due to this. Happy to demo it live if needed.
+
 All API requests, responses, and errors are written to `trading_bot.log`
 (configurable with `--log-file`). The file rotates automatically at 5 MB
 and keeps 3 backups. Console output is limited to INFO and above.
